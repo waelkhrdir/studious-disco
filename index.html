@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+
+  <link rel="stylesheet" href="styles.css" />
+
+  <title>Waelkhedircar</title>
+
+</head>
+
+<body>
+
+  <nav class="nav">
+    <div class="nav__center container">
+      <div class="nav__logo">
+        <h1>Waelkhedir<span>car</span></h1>
+      </div>
+
+      <ul class="nav__list">
+     
+        <div class="cart__icon">
+          <h2>cart</h2>
+          <span class="item__total">0</span>
+        </div>
+      </ul>
+
+      <div class="hamburger">
+        <svg>
+          <use xlink:href="./images/sprite.svg#icon-menu"></use>
+        </svg>
+      </div>
+    </div>
+  </nav>
+ 
+  <section class="products">
+    <div class="product__center">
+      <div class="item">
+        
+        <div class="buttons">
+          <span class="delete-btn"></span>
+       
+    </div>
+    
+
+  </section>
+
+  <section class="cart__overlay">
+    <div class="cart">
+      <span class="close__cart">
+        <svg>
+          <use xlink:href="./images/sprite.svg#icon-cross"></use>
+        </svg>
+      </span>
+      <h1>Your Cart</h1>
+      <div class="cart__centent">
+        
+      </div>
+
+      <div class="cart__footer">
+        <h3>Total: dt <span class="cart__total">0</span></h3>
+        <button class="clear__cart btn">Clear Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <script src="app.js"></script>
+  <div class="center">
+    <div class="stars">
+      <input type="radio" id="five" name="rate" value="5">
+      <label for="five"></label>
+      <input type="radio" id="four" name="rate" value="4">
+      <label for="four"></label>
+      <input type="radio" id="three" name="rate" value="3">
+      <label for="three"></label>
+      <input type="radio" id="two" name="rate" value="2">
+      <label for="two"></label>
+      <input type="radio" id="one" name="rate" value="1">
+      <label for="one"></label>
+      <span class="result"></span>
+    </div>
+ </div>
+</body>
+
+</html>
